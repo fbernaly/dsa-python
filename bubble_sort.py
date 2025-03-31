@@ -1,13 +1,29 @@
 def bubble_sort(array):
+    """
+    Sorts an array using the bubble sort algorithm.
+    
+    This implementation includes an optimization to terminate early if the array
+    becomes sorted before completing all passes.
+    
+    Args:
+        array (list): The list of elements to be sorted.
+    
+    Returns:
+        list: The sorted list.
+    """
     # Get the length of the array
     n = len(array)
-    # Traverse through all array elements
-    for i in range(n):
-        # Last i elements are already sorted, no need to compare them
-        for j in range(0, n - i - 1):
-            # Swap if the element found is greater than the next element
+    # Initialize the sorted flag to False
+    sorted = False
+    # Continue looping until no swaps are made
+    while sorted == False:
+        sorted = True  # Assume the array is sorted
+        for j in range(0, n - 1):
+            # Swap if the current element is greater than the next element
             if array[j] > array[j + 1]:
                 array[j], array[j + 1] = array[j + 1], array[j]
+                sorted = False  # Set flag to False as a swap was made
+
     return array
 
 # Test cases

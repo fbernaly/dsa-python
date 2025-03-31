@@ -65,5 +65,3 @@ if __name__ == "__main__":
 
     print("Original:", test_array3)
     print("Sorted:", insertion_sort(test_array3))
-
-
