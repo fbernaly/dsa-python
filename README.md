@@ -12,5 +12,6 @@ The following sorting algorithms are implemented in this repository:
 - [Merge Sort](https://www.geeksforgeeks.org/merge-sort/): A divide-and-conquer algorithm that splits the array into halves, recursively sorts them, and then merges the sorted halves.
 - [Quick Sort](https://www.geeksforgeeks.org/quick-sort-algorithm/): A highly efficient divide-and-conquer algorithm that partitions the array around a pivot element, recursively sorting the left and right subarrays.
 - [Heap Sort](https://www.geeksforgeeks.org/heap-sort/): A comparison-based sorting algorithm that uses a binary heap data structure to sort elements efficiently.
+- [Counting Sort](https://www.geeksforgeeks.org/counting-sort/): A non-comparison-based sorting algorithm that works by counting the occurrences of each element in the input array.
 
 Each algorithm includes test cases to demonstrate its functionality and correctness.
