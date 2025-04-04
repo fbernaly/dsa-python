@@ -13,5 +13,6 @@ The following sorting algorithms are implemented in this repository:
 - [Quick Sort](https://www.geeksforgeeks.org/quick-sort-algorithm/): A highly efficient divide-and-conquer algorithm that partitions the array around a pivot element, recursively sorting the left and right subarrays.
 - [Heap Sort](https://www.geeksforgeeks.org/heap-sort/): A comparison-based sorting algorithm that uses a binary heap data structure to sort elements efficiently.
 - [Counting Sort](https://www.geeksforgeeks.org/counting-sort/): A non-comparison-based sorting algorithm that works by counting the occurrences of each element in the input array.
+- [Radix Sort](https://www.geeksforgeeks.org/radix-sort/): A non-comparison-based sorting algorithm that sorts numbers by processing individual digits. It works by sorting the numbers digit by digit, starting from the least significant digit to the most significant digit, using a stable sorting algorithm like Counting Sort as a subroutine.
 
 Each algorithm includes test cases to demonstrate its functionality and correctness.
